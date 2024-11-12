@@ -1,0 +1,10 @@
+import magic from './core/magic.ts';
+const testComponent = () => {
+    const data = 'test';
+    return (
+        <div>
+            <h1 class="test">{data}</h1>
+        </div>
+    );
+};
+export default testComponent;
